@@ -1,0 +1,121 @@
+  <nav class="teal lighten-2">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Outlife 生存在外</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">首页</a></li>
+        <li><a href="badges.html">关于我们</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="/">首页</a></li>
+        <li><a href="badges.html">关于我们</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <%= image_tag "banner/1" %>
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag "banner/2" %>
+      <div class="caption left-align">
+        <h3>Left Aligned Caption</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag "banner/3" %>
+      <div class="caption right-align">
+        <h3>Right Aligned Caption</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <%= image_tag "banner/4" %>
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<div class="row">
+
+  <div class="col s6">
+
+<div class="carousel">
+  <a class="carousel-item" href="#one!"><%= image_tag "rolls/1" %></a>
+  <a class="carousel-item" href="#two!"><%= image_tag "rolls/2" %></a>
+  <a class="carousel-item" href="#three!"><%= image_tag "rolls/3" %></a>
+  <a class="carousel-item" href="#four!"><%= image_tag "rolls/4" %></a>
+  <a class="carousel-item" href="#five!"><%= image_tag "rolls/5" %></a>
+</div>
+
+      </div>
+      <div class="col s6">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">僵尸战场</span>
+              <p>QQ群：589061389</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+
+
+      <footer class="page-footer teal lighten-2">
+         <div class="container">
+           <div class="row">
+             <div class="col l6 s12">
+               <h5 class="white-text">Outlife 生存在外</h5>
+               <p class="grey-text text-lighten-4">Outlife 生存在外官方网站<br/>QQ群：589061389</p>
+             </div>
+             <div class="col l4 offset-l2 s12">
+               <h5 class="white-text">Links</h5>
+               <ul>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright">
+           <div class="container">
+           © 2017 Copyright Text
+           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+           </div>
+         </div>
+       </footer>
+
+
+
+
+
+<script>
+  $(".button-collapse").sideNav();
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+
+  $(document).ready(function(){
+     $('.slider').slider();
+   });
+</script>
